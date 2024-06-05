@@ -1,0 +1,49 @@
+
+{
+
+
+    "m-home": "Accueil",
+    "m-first-steps": "Premiers pas",
+    "m-asylum": "Processus d'asile",
+    "m-financial-aid": "Aide financière",
+    "m-healthcare": "Soins de santé",
+    "m-education": "Éducation",
+    "m-support": "Support",
+    "m-contacts": "Contacts importants",
+    
+    
+    "intro-h": "Informations pour les nouveaux demandeurs d'asile dans le Landkreis de Dachau",
+    "intro-p": "Comment naviguer dans les premières étapes, la procédure d'asile, le soutien financier, les soins de santé, l'éducation et plus encore",
+
+    "first-steps-h": "Premières étapes après l'arrivée",
+    "first-steps-p": "Si vous venez d'arriver dans un camp pour demandeurs d'asile dans le Landkreis de Dachau, il y a quelques étapes importantes que vous devez suivre immédiatement :",
+    "step-1": "Rathaus (Einwohnermeldeamt) : Inscrivez-vous avec votre pièce d'identité allemande (Aufenthaltsgestattung)",
+    "step-2": "Ausländeramt au Landratsamt de Dachau : Changez votre adresse sur votre pièce d'identité allemande. Si vous êtes avec ZAB Ingolstadt, prenez rendez-vous avant de vous y rendre.",
+    "step-3": "Asylamt au Landratsamt de Dachau : Inscrivez-vous pour obtenir une aide financière pour les demandeurs d'asile (si ce n'est pas déjà fait)",
+    "step-4": "Sparkasse : Si vous n'avez pas encore de compte bancaire, inscrivez-vous et apportez votre pièce d'identité allemande ainsi que le certificat d'inscription de l'Einwohnermeldeamt",
+
+    "change-of-address-h": "Important : Informez le BAMF que vous avez déménagé",
+    "change-of-address": "Chaque fois que vous déménagez, vous devez informer le BAMF (Bundesamt für Migration und Flüchtlinge) de votre nouvelle adresse. Remplissez le formulaire 'Adressänderung' et remettez-le au BAMF (Streitfeldstr.39, München)",
+
+    "asylum-h": "Processus d'asile et entretiens",
+    "asylum-process": "Pendant le processus d'asile, il y a 2 entretiens. Ils sont très importants ! Vous pouvez trouver des informations ici :",
+    "AVB": "Si vous avez besoin d'aide concernant votre demande d'asile, par exemple pour vous préparer à l'entretien, vous pouvez contacter :",
+
+    "doctor-h": "Soins de santé",
+    "doctor-visit": "Si vous avez besoin de consulter un médecin (généraliste, dentiste, gynécologue ou ophtalmologue), veuillez suivre ces étapes :",
+    "doctor-step-1": "Prenez rendez-vous avec le médecin",
+    "doctor-step-2": "Obtenez un Behandlungsschein (lettre de traitement) auprès du Landratsamt de Dachau. Ils sont toujours valables pour le trimestre en cours, par exemple janvier, février, mars = Q1, avril, mai, juin = Q2 etc.",
+    "doctor-step-3": "Faites une copie ou prenez une bonne photo du Behandlungsschein",
+    "doctor-step-4": "Honorez le rendez-vous avec votre médecin et apportez l'original du Behandlungsschein et remettez-le là-bas.",
+    "doctor-step-5": "Si vous devez consulter un spécialiste, le médecin vous remettra un überweisungsschein. Vous pouvez ensuite prendre rendez-vous avec le spécialiste qui devra avoir une copie du Behandlungsschein et de l'überweisung pour pouvoir vous traiter.",
+
+    "finance-h": "Aide financière",
+    "finance-p": "Lors de votre inscription au Sozialamt pour obtenir une aide aux demandeurs d'asile (Asylbewerberleistungen), vous recevrez une carte (Bezahlkarte). Pour l'inscription et des informations dans différentes langues, visitez :",
+    "education-h": "Éducation",
+    "education-p": "Si vous avez entre 15 et 20 ans, vous pouvez vous inscrire à la Berufsschule. Le Jugendmigrationsdienst (Friedenstr. 51, Dachau) vous aidera à vous inscrire. Les enfants doivent aller à l'école après avoir séjourné en Allemagne pendant 3 mois. Rendez-vous dans votre école locale et inscrivez vos enfants.",
+    "IK": "Pour les cours d'allemand, veuillez vous rendre à la Volkshochschule (VHS) de Dachau (Dr.-Engert-Str. 5, Dachau) pour vous inscrire.",
+
+    "support-h": "Soutien",
+    "caritas": "Si vous avez plus de 27 ans, vous pouvez prendre rendez-vous avec Caritas :",
+    "ib": "Pour tous ceux qui ont moins de 27 ans, pour obtenir de l'aide, veuillez contacter :"
+}

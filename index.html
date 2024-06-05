@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project REDI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/809ef8f93b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+
+<!-- NAVIGATION -->
+
+        <div class="nav-container">
+            <span><a class="logo" href="#home">DacHOW<i class="fa-regular fa-circle-question"></i></a></span>
+            <nav class="nav">
+                <ul class="nav-ul">
+                    <li class="nav-link"><a lang-attribute="m-first-steps" href="#first-steps"></a></li>
+                    <li class="nav-link"><a lang-attribute="m-asylum" href="#asylum"></a></li>
+                    <li class="nav-link"><a lang-attribute="m-financial-aid" href="#financial-aid"></a></li>
+                    <li class="nav-link"><a lang-attribute="m-healthcare" href="#healthcare"></a></li>
+                    <li class="nav-link"><a lang-attribute="m-education" href="#education"></a></li>
+                    <li class="nav-link"><a lang-attribute="m-support" href="#support"></a></li>
+                </ul>
+            </nav>
+            <span class="hamburger-menu material-symbols-outlined"><i class="fa-solid fa-bars"></i></span>
+        
+            <div class="dropdown-language container">
+                <button class="dropbtn" id="dropbtn">
+                  <i class="fa fa-caret-down" id="arrow"></i>
+                </button>
+                <div class="dropdown-content" id="dropdown-content">
+                  <a href="index.html" onclick="changeLanguage('en')">English</a>
+                  <a href="index.html" onclick="changeLanguage('fr')">French</a>
+                  <a href="index.html" onclick="changeLanguage('ar')">Arabic</a>
+                </div>
+            </div> 
+        </div>
+
+<!-- INTRO  -->
+
+        <div class="banner-container anchor-offset" id="home">
+            <div class="banner-img">
+                <img src="images/map-dachau.jpeg" alt="map Dachau area">
+            </div>
+            <div class="intro-text">
+                <h2 lang-attribute="intro-h"></h2>
+                <br>
+                <blockquote lang-attribute="intro-p"></blockquote>
+            </div>
+        </div>
+    </div>
+
+<!-- FIRST STEPS -->
+
+    <div class="first-steps-container big-screen-margin anchor-offset" id="first-steps">
+        <div class="icon-and-headline">
+            <div><i class="icon fa-solid fa-clipboard-list"></i></div>
+            <h1 class="center" lang-attribute="first-steps-h"></h1>
+        </div>
+        <br>
+        <p lang-attribute="first-steps-p" class="purple"></p>
+        <br>
+        <ol>
+            <li lang-attribute="step-1"></li>
+            <li lang-attribute="step-2"></li>
+            <li lang-attribute="step-3"></li>
+            <li lang-attribute="step-4"></li>
+        </ol>
+    </div>
+
+<!-- ADDRESS CHANGE -->
+
+    <div class="address-change">
+        <h3 lang-attribute="change-of-address-h" class="purple"></h3>
+        <br>
+            <p lang-attribute="change-of-address"></p>
+        <div class="image-container">
+            <img class="centered-img framed" src="images/Adressänderungsformular-Foto.png" alt="address change form bamf">
+        </div>
+    </div>
+
+<!-- ASYLUM & BAMF -->
+
+    <div class="asylum-container anchor-offset" id="asylum">
+        <div class= "asylum">
+            <div class="icon-and-headline">
+                <div><i class="icon fa-solid fa-scale-balanced"></i></div>
+                <h1 lang-attribute="asylum-h"></h1>
+            </div>
+                <p class="intro-asylum" lang-attribute="asylum-process"></p>
+            <div class="asylum-link center">
+                <a href="https://www.asylindeutschland.de/ " target="_blank"><b> https://www.asylindeutschland.de/</b></a>
+            </div>
+        </div>
+        <div class="AVB"lang-attribute="AVB">
+            <p></p>
+            <br>
+        </div>
+            <p class="avb-contact"><b>Asylverfahrensberatung </b><br>
+                Yuliia Baiduzh <br>
+                0157 580 822 45 (whatsapp)  &  08131 272 08 95 <br>
+                Yuliia.Baiduzh@ib.de <br>
+                Friedensstraße 51 <br> 
+                85221 Dachau <br>
+                Tuesday,Wednesday,Thursday 9am - 4pm <br>
+            </p>
+        </div>
+         
+        </div>
+
+<!-- HEALTHCARE  -->
+
+    <div class="healthcare-container  big-screen-margin anchor-offset" id="healthcare">
+        <div class="icon-and-headline">
+            <div class="center"><i class="icon fa-solid fa-house-medical"></i></div>
+            <h1 lang-attribute="doctor-h" class="center"></h1>
+        </div>
+        <p lang-attribute="doctor-visit" class="doctor-list"></p>
+        <ol>
+            <li lang-attribute="doctor-step-1"> </li>
+            <li lang-attribute="doctor-step-2"> </li>
+            <li lang-attribute="doctor-step-3"> </li>
+            <li lang-attribute="doctor-step-4"> </li>
+        </ol>
+    </div>
+
+<!-- FINANCIAL AID -->
+
+<div class="finances-container big-screen-margin anchor-offset" id="financial-aid">
+    <div class="icon-and-headline">
+        <div class="center"><i class="icon fa-solid fa-money-check-dollar"></i></div>
+        <h1 lang-attribute="finance-h"></h1>
+    </div>
+    <div class="card-img">
+        <img src="https://www.sr.de/sr/442939816-bezahlkarte-gefluechtete-dpa-bildfunk-100.jpg" alt="photo card">
+    </div>
+    <p lang-attribute="finance-p"></p>
+    <div class="bezahlkarte-link center">
+        <a href="https://bezahlkarte.eu/" target="_blank"><i class="fa-solid fa-link"></i><b> https://bezahlkarte.eu/ </b></a>
+    </div>
+
+</div>
+
+<!-- EDUCATION -->
+
+<div class="education-container big-screen-margin anchor-offset" id="education">
+    <div class="icon-and-headline">
+        <div class="center"><i class="icon fa-solid fa-graduation-cap"></i></div>
+        <h1 lang-attribute="education-h"></h1>
+    </div>
+    <p lang-attribute="education-p"></p>
+    <br>
+    <p lang-attribute="IK"></p>
+    <br>
+</div>
+
+<!-- Organizations -->
+
+<div class="support-container big-screen-margin anchor-offset" id="support">
+    <div class="icon-and-headline">
+        <div class="center"><i class="icon fa-solid fa-hand-holding-hand"></i></div>
+        <h1 lang-attribute="support-h"></h1>
+    </div>
+    <div class="info-container">
+        <h4 lang-attribute="caritas"></h4>
+        <br>
+        <div class="contact-info">
+            <img src="images/caritas-logo.png" class="logo" alt="caritas logo">
+            <p class="contact-info">
+                E-Mail: asyldachau@caritasmuenchen.org <br>
+                Phone: 08131 298 1950 <br>
+                Address: Landsberger Str. 11, 85221 Dachau <br> <br>
+                Opening hours for registration: <br>
+                9am – 12pm (Mondays, Tuesdays, Wednesdays, Fridays) <br>
+                1pm – 4pm (Thursdays) <br> 
+            </p>
+        </div>
+        <br>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2656.5076327964366!2d11.447797699999999!3d48.254604799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4109057c011b0415%3A0x2572be167d44f6cf!2sCaritas%20Region%20Dachau!5e0!3m2!1sen!2sde!4v1717536819106!5m2!1sen!2sde" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <h4 lang-attribute="jobInternational"></h4>
+        <br>
+        <div class="contact-info">
+            <img src="images/job-international-logo.png" class="logo" alt="ji logo">
+            <p class="contact-info">
+                E-Mail: job-international@caritasmuenchen.org <br>
+                Phone: 08131 298-1622 <br>
+                Address: Sudetenlandstraße 65, 85221 Dachau <br> <br>
+                Open consultation: <br> Tuesdays 1pm - 3pm<br>
+                Office hours (appointment only): <br>
+                Monday , Tuesday, Thursday: 10am - 3pm <br> 
+                Friday: 10am - 12pm<br> 
+            </p>
+        </div>
+        <br>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21248.359032638076!2d11.424362361431108!3d48.263510866450254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7bfb16058915%3A0xb60a441049d787ed!2sJob%20International%20der%20Caritas%20in%20Dachau!5e0!3m2!1sen!2sde!4v1717586722214!5m2!1sen!2sde" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <h4 lang-attribute="ib"></h4>
+        <br>
+        <div class="contact-info">
+            <img src="images/ib-logo.png" class="logo" alt="ib logo">
+            <p>
+                Jugendmigrationsdienst Dachau <br>
+                Friedenstraße 51 <br>
+                85221 Dachau <br>
+                Tel.: 08131-272 00 37 <br>
+                Mobil: 0176-586 276 38 <br>
+                Diana.Marcela.Schneider@ib.de <br>
+            </p>
+        </div>
+        <br>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10625.32796158809!2d11.434611807108233!3d48.25798532430274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7a56adb49947%3A0xac6dd491115a7493!2sIb!5e0!3m2!1sen!2sde!4v1717537560193!5m2!1sen!2sde" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

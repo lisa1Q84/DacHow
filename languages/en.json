@@ -1,0 +1,51 @@
+{
+    
+    "m-home":"Home",
+    "m-first-steps":"First Steps",
+    "m-asylum":"BAMF/Asylum",
+    "m-financial-aid":"Financial Aid",
+    "m-healthcare":"Healthcare",
+    "m-education":"Education",
+    "m-support":"Support",
+    "m-contacts":"Important contacts",
+
+
+    "intro-h":"Information for new asylum seekers in Landkreis Dachau",
+    "intro-p":"How to navigate first steps, asylum procedure, financial support, healthcare, education & more",
+
+    "first-steps-h": "First steps after arriving",
+    "first-steps-p": "If you just arrived to a camp for asylum seekers in Landkreis Dachau, there is a few important steps you need to take immediately:",
+    "step-1": "Rathaus(Einwohnermeldeamt): Register with your german ID (Aufenthaltsgestattung)",
+    "step-2": "Ausländeramt at Landratsamt Dachau: Change your address on your German ID. If you are with ZAB Ingolstadt, make an appointment before going there.",
+    "step-3": "Asylamt at Landratsamt Dachau: Register for financial help for asylum seekers (if you haven't yet)",
+    "step-4": "Sparkasse: If you do not have a bank account yet, register for one and bring your German ID as well as the registration certificate from Einwohnermeldeamt",
+
+    "change-of-address-h": "Important: Tell BAMF that you moved",
+    "change-of-address": "Whenever you're moving, you need to inform the BAMF (Bundesamt für Migration und Flüchtlinge) about your new address. Fill out the form 'Adressänderung' and hand it out to the BAMF (Streitfeldstr.39, München)",
+
+    "asylum-h": "Asylum Process and Interviews",
+    "asylum-process": "While going through the asylum process, there are 2 interviews. They are very important! You can find information here:",
+    "AVB": "If you need help related to your asylum application, for example preparing for the interview, you can reach out to:",
+
+    "doctor-h":"Healthcare",
+    "doctor-visit":" If you need to see a doctor (general doctor, dentist, gynaecologist or eye doctor, please follow these steps:",
+    "doctor-step-1":"Schedule an appointment with the doctor",
+    "doctor-step-2":"Get a Behandlungsschein (treatment letter) from Landratsamt Dachau. These are always valid for the current quarter, for example January,February,March = Q1, April, May, June = Q2 etc.",
+    "doctor-step-3":"Make a copy or take a good photo of the Behandlungsschein",
+    "doctor-step-4":"Keep the appointment with your doctor and bring the original Behandlungsschein and submit it there.",
+    "doctor-step-5":"If you need to see a specialist, the doctor will give you a überweisungsschein. You can then make an appointment with the specialist who will need to have a copy of the Behandlungsschein and the überweisung to be able to treat you",
+
+    "finance-h":"Financial Aid",
+    "finance-p":"When signing up at Sozialamt for asylum seeker support (Asylbewerberleistungen), you will receive a card (Bezahlkarte). For registration & information in different languages, visit:",
+    "education-h":"Education",
+    "education-p":"If you are 15–20 years you can register for Berufsschule. Jugendmigrationsdienst (Friedenstr. 51, Dachau) will help you registering. Kids have to go to school after staying in Germany for 3 months.Go to your local school and register your children",
+    "IK":"For Deutschkurs please go to Volkshochschule (VHS) Dachau (Dr.-Engert-Str. 5,Dachau) for registration.",
+
+    "support-h":"Support",
+    "caritas":"If you are above 27 years old, you can schedule an appointment with Caritas:",
+    "ib":"For everyone below the age of 27, for support please contact:",
+    "jobInternational":"If you need help looking for a job or housing, please reach out to:"
+
+}
+
+

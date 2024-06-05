@@ -1,0 +1,633 @@
+/* BASIC */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding-top: 70px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #4D4DDB;
+}
+
+.header {
+  background: #fff;
+  color: black;
+  margin-top: 0.5rem;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon-and-headline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.icon-and-headline h1{
+text-align: center;
+}
+
+.big-font {
+  font-size: 2rem;
+  color: #4D4DDB;
+  margin-bottom: 10px;
+}
+
+
+.purple {
+  color: #4D4DDB;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 3rem;
+  margin: auto;
+}
+
+
+.framed {
+  border: solid;
+}
+
+.centered-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+
+/* NAVIGATION */
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
+  padding: 0 1rem;
+}
+
+.nav-container .logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4D4DDB;
+}
+
+.nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.nav a {
+  color: black;
+}
+
+
+.nav-link a:hover {
+  color: lightgray;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 1.6rem;
+  font-size: 1.2rem;
+}
+
+.nav-ul li {
+  margin: 8px 0;
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+
+/* Add offset for anchors */
+.anchor-offset {
+  position: relative;
+}
+
+.anchor-offset::before {
+  content: '';
+  display: block;
+  height: 200px; 
+  margin-top: -200px; 
+  visibility: hidden;
+}
+
+
+
+
+/* LANGUAGE DROPDOWN BUTTON */
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dropbtn:hover {
+  background-color: #333;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content hidden by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+
+/* Show the dropdown menu */
+.show {
+  display: block;
+}
+
+
+
+
+
+/* BANNER */
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3rem auto;
+  max-width: 1200px;
+  gap: 5%;
+  padding: 0 1rem;
+}
+
+.banner-container div {
+  min-width: 300px;
+  flex: 1;
+}
+
+.intro-text {
+  margin: 5px;
+}
+
+.banner-img {
+  max-width: 50%;
+  margin: 10px;
+}
+
+.banner-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* FIRST STEPS */
+
+
+.first-steps-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.first-steps-container li {
+  margin: 10px;
+  font-size: 1.1rem;
+}
+
+
+/* ASYLUM */
+
+.asylum-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.address-change {
+  margin: 5%;
+  padding: 5%;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+
+.image-container {
+  text-align: center; /* Center the image container itself */
+  padding: 20px; /* Add some padding around the image */
+}
+
+
+.intro-asylum {
+  margin: 2rem 0;
+}
+
+.asylum-link{
+  margin: 1rem 0;
+}
+
+.AVB {
+  margin: 10px;
+  text-align: left;
+}
+
+.avb-contact {
+  background-color: #4D4DDB; 
+  color: white; 
+  padding: 15px; 
+  border-radius: 20px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin-top: 20px; 
+  border: 1px solid transparent; 
+  transition: border-color 0.3s; 
+}
+
+.avb-contact:hover {
+  border-color: white; 
+}
+
+.avb-contact a {
+  color: white; 
+  text-decoration: none;
+}
+
+.avb-contact a:hover {
+  text-decoration: underline; 
+}
+
+
+
+
+
+
+/* FINANCIAL AID */
+
+
+.bezahlkarte-link{
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.card-img{
+  text-align: center; 
+  padding: 20px; 
+}
+
+.card-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+/* HEALTHCARE */
+
+
+
+.healthcare-container {
+  margin: 10%;
+}
+
+.healthcare-container li {
+  margin: 5px;
+  padding: 5px;
+  color: #4D4DDB;
+}
+
+.doctor-li {
+  margin: 5px;
+  padding-top: 5px;
+  list-style: none;
+}
+
+.finances-container  {
+  margin: 1rem 2rem;
+}
+
+.info-btn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.info-btn:hover {
+  background-color: #333;
+}
+
+.btn-div {
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.education-container {
+  margin: 1rem 2rem;
+}
+
+
+
+/* ORGANIZATIONS*/
+
+.support-container {
+  margin: 1rem 2rem;
+}
+
+
+.center {
+  margin-right: 1rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 9rem;
+  display: block;
+  padding: 1rem;
+  margin-right: 1rem; 
+}
+
+.caritas, .ib {
+  color: #4D4DDB; 
+}
+
+.contact-info p {
+  margin: 0; 
+  font-size: 0.8rem;
+}
+
+
+.map-container{ 
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.map-container iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+
+}
+
+
+
+
+
+/* MEDIA QUERY FOR SMALL SCREENS */
+
+@media (max-width: 800px) {
+
+  /* BASIC */ 
+
+  .big-font {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  h1{
+    font-size: 25px;
+    margin:20px;
+  }
+
+  /* NAVBAR */ 
+
+  .nav-container .logo {
+    font-size: 1.5rem;
+    z-index: 2;
+    margin-left: 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: #4D4DDB;
+  }
+
+  .hamburger-menu {
+    display: block; 
+    position: absolute; 
+    right: 50%; 
+    transform: translateX(50%); 
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    padding-top: 4rem;
+    text-align: center;
+    background-color: #4D4DDB;
+    color: white;
+    transition: right 0.15s ease-in-out;
+  }
+
+  .nav a {
+    color: white;
+  }
+
+  .nav.active {
+    right: 0;
+    display: block;
+  }
+
+  .dropbtn {
+    margin: 1rem;
+  }
+
+  /* FIRST STEPS */
+
+  .first-steps-container {
+    margin: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .banner-container {
+    margin: 1rem;
+  }
+}
+
+/* MEDIA QUERY FOR MEDIUM SCREENS */
+
+@media (min-width: 801px) and (max-width: 1300px) {
+
+  /* BASIC */ 
+
+  .big-font {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  /* NAVBAR */ 
+
+  .nav-container .logo {
+    font-size: 2.5rem;
+    z-index: 2;
+    margin-left: 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: #4D4DDB;
+  }
+
+  .hamburger-menu {
+    display: block; 
+    position: absolute; 
+    right: 50%; 
+    transform: translateX(50%); 
+    font-size: 2.5rem;
+  }
+
+  .nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    padding-top: 4rem;
+    text-align: center;
+    background-color: #4D4DDB;
+    color: white;
+    transition: right 0.15s ease-in-out;
+  }
+
+  .nav a {
+    color: white;
+  }
+
+  .nav.active {
+    right: 0;
+    display: block;
+  }
+
+  .dropbtn {
+    margin: 1rem;
+  }
+
+  /* FIRST STEPS */
+
+  .first-steps-container {
+    margin: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .banner-container {
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-img img {
+      max-width: 600px; 
+  }
+
+
+ .big-screen-margin{
+   margin: 5%;
+ }
+
+
+}

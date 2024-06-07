@@ -1,49 +1,52 @@
 
 {
-
-
     "m-home": "Accueil",
-    "m-first-steps": "Premiers pas",
-    "m-asylum": "Processus d'asile",
-    "m-financial-aid": "Aide financière",
-    "m-healthcare": "Soins de santé",
+    "m-first-steps": "Premiers Pas",
+    "m-asylum": "Asile / BAMF",
+    "m-financial-aid": "Aide Financière",
+    "m-healthcare": "Soins de Santé",
     "m-education": "Éducation",
-    "m-support": "Support",
-    "m-contacts": "Contacts importants",
-    
-    
-    "intro-h": "Informations pour les nouveaux demandeurs d'asile dans le Landkreis de Dachau",
-    "intro-p": "Comment naviguer dans les premières étapes, la procédure d'asile, le soutien financier, les soins de santé, l'éducation et plus encore",
+    "m-support": "Soutien",
 
-    "first-steps-h": "Premières étapes après l'arrivée",
-    "first-steps-p": "Si vous venez d'arriver dans un camp pour demandeurs d'asile dans le Landkreis de Dachau, il y a quelques étapes importantes que vous devez suivre immédiatement :",
-    "step-1": "Rathaus (Einwohnermeldeamt) : Inscrivez-vous avec votre pièce d'identité allemande (Aufenthaltsgestattung)",
-    "step-2": "Ausländeramt au Landratsamt de Dachau : Changez votre adresse sur votre pièce d'identité allemande. Si vous êtes avec ZAB Ingolstadt, prenez rendez-vous avant de vous y rendre.",
-    "step-3": "Asylamt au Landratsamt de Dachau : Inscrivez-vous pour obtenir une aide financière pour les demandeurs d'asile (si ce n'est pas déjà fait)",
-    "step-4": "Sparkasse : Si vous n'avez pas encore de compte bancaire, inscrivez-vous et apportez votre pièce d'identité allemande ainsi que le certificat d'inscription de l'Einwohnermeldeamt",
+    "intro-h": "Bienvenue à Landkreis Dachau",
+    "intro-p": "Un guide pour les nouveaux demandeurs d'asile pour naviguer dans les premiers pas, les procédures d'asile, le soutien financier, les soins de santé, l'éducation, et plus encore...",
 
-    "change-of-address-h": "Important : Informez le BAMF que vous avez déménagé",
-    "change-of-address": "Chaque fois que vous déménagez, vous devez informer le BAMF (Bundesamt für Migration und Flüchtlinge) de votre nouvelle adresse. Remplissez le formulaire 'Adressänderung' et remettez-le au BAMF (Streitfeldstr.39, München)",
+    "first-steps-h": "Premiers Pas",
+    "first-steps-p": "Si vous venez d'arriver dans un logement pour demandeurs d'asile dans le Landkreis Dachau, voici quelques étapes importantes que vous devez prendre immédiatement:",
 
-    "asylum-h": "Processus d'asile et entretiens",
+    "step-1": "Mairie : Inscrivez-vous avec votre pièce d'identité allemande (Aufenthaltsgestattung).",
+    "step-2": "Office des étrangers au Landratsamt Dachau (Adresse : Münchner Str. 87b, 85221 Dachau) : Changez votre adresse sur votre pièce d'identité allemande. Si vous êtes avec ZAB Ingolstadt (Adresse : Am Hochfeldweg 20, 85051 Ingolstadt), prenez rendez-vous avant d'y aller : terminanfrage.zab.ingolstadt@reg-ob.bayern.de",
+    "step-3": "Asylamt au Landratsamt Dachau (Adresse : Münchner Str. 87b, 85221 Dachau) : Inscrivez-vous pour obtenir de l'aide financière pour les demandeurs d'asile (si vous ne l'avez pas encore fait).",
+    "step-4": "Sparkasse : Si vous n'avez pas encore de compte bancaire, inscrivez-vous et apportez votre pièce d'identité allemande ainsi que le certificat d'inscription de la mairie.",
+
+    "change-of-address-h": "Important : Informez le BAMF que vous avez déménagé !",
+    "change-of-address": "Chaque fois que vous déménagez, vous devez informer le BAMF (Bundesamt für Migration und Flüchtlinge) de votre nouvelle adresse. Remplissez le formulaire 'Adressänderung' et remettez-le au BAMF (Streitfeldstr.39, München). Vous pouvez trouver le 'Aktenzeichen' sur votre pièce d'identité.",
+
+    "asylum-h": "Asile / BAMF",
     "asylum-process": "Pendant le processus d'asile, il y a 2 entretiens. Ils sont très importants ! Vous pouvez trouver des informations ici :",
-    "AVB": "Si vous avez besoin d'aide concernant votre demande d'asile, par exemple pour vous préparer à l'entretien, vous pouvez contacter :",
+    "AVB": "Si vous avez besoin d'aide liée à votre demande d'asile, par exemple pour préparer l'entretien, vous pouvez contacter :",
 
-    "doctor-h": "Soins de santé",
-    "doctor-visit": "Si vous avez besoin de consulter un médecin (généraliste, dentiste, gynécologue ou ophtalmologue), veuillez suivre ces étapes :",
-    "doctor-step-1": "Prenez rendez-vous avec le médecin",
-    "doctor-step-2": "Obtenez un Behandlungsschein (lettre de traitement) auprès du Landratsamt de Dachau. Ils sont toujours valables pour le trimestre en cours, par exemple janvier, février, mars = Q1, avril, mai, juin = Q2 etc.",
-    "doctor-step-3": "Faites une copie ou prenez une bonne photo du Behandlungsschein",
-    "doctor-step-4": "Honorez le rendez-vous avec votre médecin et apportez l'original du Behandlungsschein et remettez-le là-bas.",
-    "doctor-step-5": "Si vous devez consulter un spécialiste, le médecin vous remettra un überweisungsschein. Vous pouvez ensuite prendre rendez-vous avec le spécialiste qui devra avoir une copie du Behandlungsschein et de l'überweisung pour pouvoir vous traiter.",
+    "doctor-h": "Soins de Santé",
+    "doctor-visit": "Si vous avez besoin de consulter un médecin (médecin généraliste, dentiste, gynécologue ou ophtalmologiste), veuillez suivre ces étapes :",
+    "doctor-step-1": "Prenez rendez-vous avec le médecin.",
+    "doctor-step-2": "Obtenez un Behandlungsschein (lettre de traitement) auprès du Landratsamt Dachau. Ceux-ci sont toujours valables pour le trimestre en cours, par exemple janvier, février, mars = T1, avril, mai, juin = T2, etc.",
+    "doctor-step-3": "Faites une copie ou prenez une bonne photo du Behandlungsschein.",
+    "doctor-step-4": "Gardez le rendez-vous avec votre médecin et apportez l'original du Behandlungsschein et remettez-le là-bas.",
+    "doctor-step-5": "Si vous devez consulter un spécialiste, le médecin vous remettra un 'Ueberweisungsschein'. Vous pouvez alors prendre rendez-vous avec le spécialiste qui aura besoin d'une copie du Behandlungsschein et de l'Ueberweisung pour pouvoir vous traiter.",
 
-    "finance-h": "Aide financière",
-    "finance-p": "Lors de votre inscription au Sozialamt pour obtenir une aide aux demandeurs d'asile (Asylbewerberleistungen), vous recevrez une carte (Bezahlkarte). Pour l'inscription et des informations dans différentes langues, visitez :",
+    "finance-h": "Aide Financière",
+    "finance-p1": "Lors de l'inscription au Sozialamt pour obtenir une aide aux demandeurs d'asile (Asylbewerberleistungen), vous recevrez une carte de paiement (Bezahlkarte).",
+    "finance-p2": "Vous ne pouvez retirer qu'un certain montant en espèces avec, mais vous pouvez payer avec dans tous les magasins acceptant les paiements par carte. Il y aura une application téléphonique pour effectuer des transactions vers des destinataires autorisés. Si vous devez envoyer de l'argent à un destinataire qui n'est pas autorisé, vous devez informer 'Landratsamt Dachau - Asylbewerberleistungen'.",
+    "finance-p3": "Pour l'inscription et des informations dans différentes langues, visitez :",
+
     "education-h": "Éducation",
-    "education-p": "Si vous avez entre 15 et 20 ans, vous pouvez vous inscrire à la Berufsschule. Le Jugendmigrationsdienst (Friedenstr. 51, Dachau) vous aidera à vous inscrire. Les enfants doivent aller à l'école après avoir séjourné en Allemagne pendant 3 mois. Rendez-vous dans votre école locale et inscrivez vos enfants.",
-    "IK": "Pour les cours d'allemand, veuillez vous rendre à la Volkshochschule (VHS) de Dachau (Dr.-Engert-Str. 5, Dachau) pour vous inscrire.",
+    "education-p": "Si vous avez entre 15 et 20 ans, vous pouvez vous inscrire à la Berufsschule. Le Jugendmigrationsdienst (Friedenstr. 51, Dachau) vous aidera à vous inscrire. Les enfants doivent aller à l'école après avoir séjourné en Allemagne pendant 3 mois. Veuillez vous rendre à l'école locale et inscrire vos enfants.",
+    "IK": "Pour les cours d'allemand, veuillez vous rendre à la Volkshochschule (VHS) Dachau (Dr.-Engert-Str. 5, Dachau) pour vous inscrire.",
 
-    "support-h": "Soutien",
+    "support-h": "Organisations qui peuvent vous aider :",
     "caritas": "Si vous avez plus de 27 ans, vous pouvez prendre rendez-vous avec Caritas :",
-    "ib": "Pour tous ceux qui ont moins de 27 ans, pour obtenir de l'aide, veuillez contacter :"
+    "ib": "Pour tous ceux qui ont moins de 27 ans",
+    "jobInternational": "Si vous avez besoin d'aide pour trouver un emploi ou un logement, veuillez contacter :"
+
+
 }

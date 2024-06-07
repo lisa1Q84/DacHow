@@ -1,4 +1,6 @@
+
 /* BASIC */
+
 
 * {
   box-sizing: border-box;
@@ -25,11 +27,25 @@ a {
   color: #4D4DDB;
 }
 
+.big-font {
+  font-size: 1.5rem;
+}
+
+.logo {
+  margin: 0;
+}
+
+h1{
+  font-size: 25px;
+  margin:20px;
+}
+
+
+
 .header {
   background: #fff;
-  color: black;
   margin-top: 0.5rem;
-  padding: 1rem 0;
+  padding: 1rem 0; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -37,19 +53,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
-  padding: 0;
 }
 
 .icon-and-headline h1{
-text-align: center;
-}
+  text-align: center;
+  }
 
-.big-font {
-  font-size: 2rem;
-  color: #4D4DDB;
-  margin-bottom: 10px;
-}
 
 
 .purple {
@@ -76,6 +85,7 @@ text-align: center;
 
 
 
+
 /* NAVIGATION */
 
 .nav-container {
@@ -83,14 +93,29 @@ text-align: center;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto;
   position: fixed;
   top: 0;
   left: 0;
   background-color: #fff;
   z-index: 1000;
-  padding: 0 1rem;
 }
+
+
+.nav-container .logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4D4DDB;
+  font-size: 1.5rem;
+  z-index: 2;
+  margin-left: 0;
+}
+
+
+
+
+
 
 .nav-container .logo {
   display: flex;
@@ -99,6 +124,10 @@ text-align: center;
   font-weight: bold;
   color: #4D4DDB;
 }
+
+
+
+
 
 .nav {
   display: flex;
@@ -131,18 +160,21 @@ text-align: center;
 }
 
 
-/* Add offset for anchors */
-.anchor-offset {
+/* Add offset for anchors because of sticky navbar */
+
+  anchor-offset {
   position: relative;
 }
 
 .anchor-offset::before {
   content: '';
   display: block;
-  height: 200px; 
-  margin-top: -200px; 
+  height: 70px; 
+  margin-top: -70px; 
   visibility: hidden;
 }
+
+
 
 
 
@@ -207,7 +239,6 @@ text-align: center;
   justify-content: center;
   flex-wrap: wrap;
   margin: 3rem auto;
-  max-width: 1200px;
   gap: 5%;
   padding: 0 1rem;
 }
@@ -241,6 +272,7 @@ text-align: center;
 
 .first-steps-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   margin: 2rem;
   padding: 2rem;
@@ -260,7 +292,6 @@ text-align: center;
 .asylum-container {
   display: flex;
   flex-direction: column;
-  margin: 5%;
   background-color: #fff;
   padding: 2rem;
   border-radius: 8px;
@@ -269,9 +300,9 @@ text-align: center;
 
 
 .address-change {
-  margin: 5%;
   padding: 5%;
-  background-color: #fff;
+  background-color: #4D4DDB;
+  color: #fff;
   border-radius: 8px;
 }
 
@@ -327,10 +358,6 @@ text-align: center;
 /* FINANCIAL AID */
 
 
-.bezahlkarte-link{
-  margin: 1rem 0;
-  text-align: center;
-}
 
 .card-img{
   text-align: center; 
@@ -346,7 +373,32 @@ text-align: center;
 }
 
 
+.bezahlkarte-link {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 10px;
+  background-color: #4D4DDB;
+  border-radius: 5px;
+  text-align: center;
+}
 
+.bezahlkarte-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bezahlkarte-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* EDUCATION */
+
+.education-container {
+  margin: 2rem;
+}
 
 
 
@@ -394,9 +446,6 @@ text-align: center;
   margin: 1.5rem;
 }
 
-.education-container {
-  margin: 1rem 2rem;
-}
 
 
 
@@ -408,7 +457,8 @@ text-align: center;
 
 
 .center {
-  margin-right: 1rem;
+  text-align: center;
+  align-content: center;
 }
 
 .info-container {
@@ -422,7 +472,7 @@ text-align: center;
 }
 
 .logo {
-  max-width: 9rem;
+  max-width: 7rem;
   display: block;
   padding: 1rem;
   margin-right: 1rem; 
@@ -619,15 +669,72 @@ text-align: center;
   }
 }
 
+
+
+
+/* MEDIA QUERY FOR BIG SCREENS */
+
+
+
 @media (min-width: 1200px) {
-  .card-img img {
-      max-width: 600px; 
+  
+    .card-img img {
+        max-width: 600px; 
+    }
+
+    .dropbtn {
+      margin-right: 2rem;
+    }
+
+  .big-screen-margin{
+    margin: 2%;
+    padding: 5%;
   }
 
 
- .big-screen-margin{
-   margin: 5%;
- }
+  .centered-img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    }
 
+   
+    h1 {
+      font-size: 50px;
+      margin: 20px;
+    }
+  
+    h2 {
+      font-size: 40px;
+    }
+  
+    .first-steps-container li {
+      margin: 10px;
+      font-size: 1.2rem; 
+      text-align: left;
+    }
+
+    .address-change {
+      display: flex; 
+      align-items: center; 
+    }
+    
+    .address-change h3,
+    .address-change p {
+      margin: 0;
+      padding: 20px 
+    }
+  
+    .asylum-container {
+      display: flex;
+      flex-direction: column; 
+      align-items: flex-start;
+      text-align: left; 
+    }
 
 }
+    
+
+
+

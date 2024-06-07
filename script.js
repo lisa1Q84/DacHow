@@ -20,7 +20,6 @@ navLinks.forEach(function(link) {
 
 
 
-
 //      LANGUAGE DROPDOWN SELECTION BUTTON       //
 
 
@@ -56,13 +55,10 @@ document.documentElement.addEventListener("click", function () {
 
 
 
-
 // Function to save the language preference in localStorage
 function setLanguagePreference(lang) {
     localStorage.setItem('language', lang);
 }
-
-
 
 
 // Function to update the site content based on selected language
@@ -72,8 +68,6 @@ function updateContent(langData) {
         element.textContent = langData[key];
     });
 }
-
-
 
 // Function to fetch language data from json files
 async function fetchLanguageData(lang) {
